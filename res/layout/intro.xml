@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro_backgrd"
+    android:foregroundTint="#673AB7">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/amita_bold"
+        android:text="Welcome to AR World!"
+        android:textColor="#115675"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/intro_btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="380dp"
+        android:layout_marginTop="210dp"
+        android:backgroundTint="#2E9678"
+        android:fontFamily="casual"
+        android:text="Create Design"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textColorHighlight="#E2E0E0"
+        android:textColorHint="#00F5EDED"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/profile_btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="210dp"
+        android:backgroundTint="#2E9678"
+        android:fontFamily="casual"
+        android:text="My profile"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textSize="18sp" />
+
+</RelativeLayout>

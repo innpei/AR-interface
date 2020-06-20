@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorDarkGreen"
+    android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:id="@+id/profile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:orientation="vertical" >
+
+<!--            <Button-->
+<!--                android:id="@+id/button3"-->
+<!--                android:layout_width="700dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/toolbar"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_marginTop="11dp"-->
+<!--                android:backgroundTint="#ECD898"-->
+<!--                android:fontFamily="casual"-->
+<!--                android:text="My First Design"-->
+<!--                android:textAlignment="viewStart"-->
+<!--                android:textAllCaps="false" />-->
+
+        </LinearLayout>
+
+
+
+<!--        <Button-->
+<!--            android:id="@+id/button4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="casual"-->
+<!--            android:layout_below="@id/button3"-->
+<!--            android:layout_marginTop="18dp"-->
+<!--            android:backgroundTint="#F3DE6D"-->
+<!--            android:text="My second design"-->
+<!--            android:textAlignment="viewStart"-->
+<!--            android:textAllCaps="false" />-->
+
+    </LinearLayout>
+</ScrollView>
